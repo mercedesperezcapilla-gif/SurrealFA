@@ -1,0 +1,23 @@
+[project]
+name = "deepagentdev"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "azure-identity>=1.25.2",
+    "certifi>=2026.1.4",
+    "deepagents>=0.4.1",
+    "dotenv>=0.9.9",
+    "langchain[openai]>=1.2.10",
+    "langgraph>=1.0.9",
+    "langsmith>=0.3.0",
+    "pyvis>=0.3.2",
+    "requests>=2.32.0",
+    "surrealdb>=1.0.0",
+    "yfinance>=0.2.55",
+    "tavily>=1.1.0",
+    "tavily-python>=0.7.21",
+    "streamlit>=1.55.0",
+    "pydeck>=0.9.1",
+]
